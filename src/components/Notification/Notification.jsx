@@ -5,3 +5,7 @@ export const Notification = ({message}) => {
     <h2>{message}</h2>
   </div>
 }
+
+Notification.propTypes = {
+  message: PropTypes.string.isRequired
+}
